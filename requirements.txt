@@ -3,3 +3,4 @@ dash-core-components
 dash-html-components
 python-docx==0.8.11
 openai==0.28.1
+gunicorn
