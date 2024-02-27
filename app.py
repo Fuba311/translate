@@ -11,7 +11,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 
 
 app = dash.Dash(__name__)
-
+server = app.server
 # Custom CSS styles for nicer aesthetics
 app.layout = html.Div([
     dcc.Upload(
